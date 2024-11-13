@@ -1,0 +1,19 @@
+site_name: DevBlog
+site_url: https://mydomain.org/blog/
+theme:
+  palette:
+    scheme: slate
+    primary: black
+    accent: indigo
+  name: material
+  features:
+    - navigation.indexes
+plugins:
+  - blog:
+      archive: false
+nav:
+  - Home: index.md
+  - Blog: 
+    - blog/index.md
+extra:
+  generator: false
