@@ -23,5 +23,16 @@ This would help you understand how that "X" works and you would learn a lot abou
 
 Obviously I jumped straight to the "Game" section, where I found a great site: [RoguelikeTutorials.com](https://rogueliketutorials.com) and started coding the tutorial right away.
 
-The tutorial uses Python and [tcod](https://github.com/libtcod/python-tcod) (a C library ported to Python that is used for roguelike development)
+The tutorial uses Python and [tcod](https://github.com/libtcod/python-tcod) (a C library ported to Python that is used for roguelike development) to implement the basics of the original Rogue.
+
 ![alt text](../images/rogue.png)
+
+## Why
+
+Long story short, in my lifetime I want to implement a game.
+Probably not now and not even next year ... but sometime when I will have enough dedication and experience.
+A game that I enjoy playing.
+And I only play (and enjoy) online / multiplayer games, but implementing those are *god-damn hard*.
+
+Creating a good single-player game is hard enough for a solo (or small team) indie developer(s) ... you have to think about UI / UX, a good gameplay loop, a hook, a progression system, balance, a story, a coherent visual design, ... and the list goes on.
+Adding server-authoritive networking to the picture makes the whole thing 10x harder.
