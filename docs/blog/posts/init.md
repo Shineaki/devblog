@@ -22,9 +22,9 @@ Last week I had to realize that over 2 weeks I spent almost 120 hours playing Do
 
 ## Topics
 
-There are a few topics that I enjoy spending time on, e.g.: 
+There are a few topics that I enjoy spending time on: 
 
-* Frontend (e.g React) and backend (flask, fastapi, etc) topics
+* Frontend (e.g React) and backend (flask, fastapi, etc) tinkering
 * App (mobile) developent (with Flutter)
 * Game development (Flutter-Flame, Godot, Unity ... or something from scratch?!)
 
