@@ -36,3 +36,11 @@ And I only play (and enjoy) online / multiplayer games, but implementing those a
 
 Creating a good single-player game is hard enough for a solo (or small team) indie developer(s) ... you have to think about UI / UX, a good gameplay loop, a hook, a progression system, balance, a story, a coherent visual design, ... and the list goes on.
 Adding server-authoritive networking to the picture makes the whole thing 10x harder.
+
+Oookay, let's continue with the Rogue stuff!
+
+## Part 3 - Generating maps
+
+Implementation of the map generation started, now we can create rooms (currently by hand, but this will change shortly).
+
+![alt text](../images/rogue_part_3_1.png)
