@@ -25,7 +25,7 @@ Obviously I jumped straight to the "Game" section, where I found a great site: [
 
 The tutorial uses Python and [tcod](https://github.com/libtcod/python-tcod) (a C library ported to Python that contains useful things for roguelike game development, like a customizable console, grid-based pathfinding, etc) to implement the basics of the original Rogue.
 
-![rogue](../images/rogue.png)
+![Rouge end-state](../images/rogue.png)
 
 ## Why :confused:
 
@@ -43,4 +43,10 @@ Oookay, let's continue with the Rogue stuff!
 
 Implementation of the map generation started, now we can create rooms (currently by hand, but this will change shortly).
 
-![alt text](../images/rogue_part_3_1.png)
+![Rouge Part 3 started](../images/rogue_part_3_1.png)
+
+Aaaand the first (very simple) dungeon room generating function is implemented!
+
+![alt text](../images/rogue_part_3_2.png)
+
+## Part 4 - Field of view
