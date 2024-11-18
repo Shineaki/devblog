@@ -7,9 +7,9 @@ categories:
   - GameDev
 ---
 
-# PyRouge
+# PyRouge #1
 
-Yes, I mispelled the name, but it is too late to change the repository name and everything, so it will remaine Py*Rouge*.
+Yes, I misspelled the name, but it is too late to change the repository name and everything, so it will remain Py*Rouge*.
 
 <!-- more -->
 
@@ -19,7 +19,7 @@ I found an amazing repository called [Build your own X](https://github.com/codec
 
 This would help you understand how that "X" works and you would learn a lot about the programming language that is being used for the implementation. This finally gave me a burst of motivation to start coding something.
 
-## RougelikeTutorials :video_game:
+## RoguelikeTutorials :video_game:
 
 Obviously I jumped straight to the "Game" section, where I found a great site: [RoguelikeTutorials.com](https://rogueliketutorials.com) and started coding along right away.
 
@@ -35,9 +35,9 @@ A game that I enjoy playing.
 And I only play (and enjoy) online / multiplayer games, but implementing those are *god-damn hard*.
 
 Creating a good single-player game is hard enough for a solo (or small team) indie developer(s) ... you have to think about UI / UX, a good gameplay loop, a hook, a progression system, balance, a story, a coherent visual design, ... and the list goes on.
-Adding server-authoritive networking to the picture makes the whole thing 10x harder.
+Adding server-authoritative networking to the picture makes the whole thing 10x harder.
 
-Oookay, let's continue with the Rogue stuff!
+Okay, let's continue with the Rogue stuff!
 
 ## Part 3 - Generating maps
 
@@ -45,10 +45,12 @@ Implementation of the map generation started, now we can create rooms (currently
 
 ![Rouge Part 3 started](../images/rogue_part_3_1.png)
 
-Aaaand the first (very simple) dungeon room generating function is implemented!
+And the first (very simple) dungeon room generating function is implemented!
 
 ![alt text](../images/rogue_part_3_2.png)
 
-## Part 4 - Field of view
+To be honest I don't really like the generated layouts (too many paths, paths are overlapping, paths running along the side of the rooms), so I will try to come up with a different one after I finished the complete tutorial.
 
-tbd.
+
+---
+I continue this journey in [Part Two!](rogue_part_2.md)
