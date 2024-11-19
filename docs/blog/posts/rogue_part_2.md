@@ -29,3 +29,7 @@ Enemies are now generated - 80% for an Orc (O) and 20% for a Troll (T). They do 
 <figure class="video_container">
     <video controls src="../../../../images/rouge_enemies_1.mp4" title="Title"></video>
 </figure>
+
+## Part 6 - Doing (and taking) some damage
+
+Coming tomorrow
