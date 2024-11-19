@@ -24,4 +24,8 @@ Also, now I know that I can embed videos too, I had no idea mkdocs can do that. 
 
 ## Part 5 - Placing Enemies and kicking them
 
-Coming soon
+Enemies are now generated - 80% for an Orc (O) and 20% for a Troll (T). They do not move yet and they do not attack / take damage yet. 
+
+<figure class="video_container">
+    <video controls src="../../../../images/rouge_enemies_1.mp4" title="Title"></video>
+</figure>
