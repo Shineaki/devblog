@@ -33,4 +33,4 @@ I will try to add various monsters with different stats, based on the level we a
 
 ## Part 6 - Doing (and taking) some damage
 
-Coming tomorrow
+Part 6 starts of with a huge refactoring session. I took over those changes, the rest is coming tomorrow.
