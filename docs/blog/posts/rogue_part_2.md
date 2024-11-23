@@ -33,4 +33,16 @@ I will try to add various monsters with different stats, based on the level we a
 
 ## Part 6 - Doing (and taking) some damage
 
-Part 6 starts of with a huge refactoring session. I took over those changes, the rest is coming tomorrow.
+Part 6 starts of with a huge refactoring session. I took over those changes, then we continue with some [pathfinding from the tcod](https://python-tcod.readthedocs.io/en/latest/tcod/path.html) library.
+Now the enemies chase the player and:
+
+* Wait if they cannot see the player
+* Move towards the player if it is inside the FOV (and distance > 1)
+* Attack the player (if distance = 1)
+
+<figure class="video_container">
+    <video controls src="../../../../images/rouge_part_6_enemies_chasing.mp4" title="Title"></video>
+</figure>
+
+## Part 7 - Creating the Interface
+
