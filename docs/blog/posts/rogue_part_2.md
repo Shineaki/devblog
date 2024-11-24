@@ -46,7 +46,7 @@ Now the enemies chase the player and:
 
 And after some combat implementation now we can kill enemies (and they can kill us). The consol log is not visible, but it shows the damage we deal (and receive). I assume later this will be visible on the screen as well.
 
-The combat is simple, the damage equals (attacker attack power - enemy defense), I guess this will also be improved later with a chance to miss / critical hit, deal damage on a range instead of a fixed value, etc.
+The combat is simple, the damage dealt equals attacker attack power minus the enemy defense, I guess this will also be improved later with a chance to miss / critical hit, deal damage on a range instead of a fixed value, etc.
 
 <figure class="video_container">
     <video controls src="../../../../images/rouge_part6_fight_enemies.mp4" title="Title"></video>
