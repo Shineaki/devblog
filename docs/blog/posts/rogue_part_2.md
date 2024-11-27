@@ -55,4 +55,13 @@ The combat is simple, the damage dealt equals attacker attack power minus the en
 
 ## Part 7 - Creating the Interface
 
+Today we added a lots of stuff on the UI: a health bar, an expandable chat log and mouse hover over text!
+Slowly it starts to resemble a game :smiley:
+
+<figure class="video_container">
+    <video controls src="../../../../images/rouge_part_7_interface.mp4" title="Title"></video>
+</figure>
+
+## Part 8 - Items and Inventory
+
 Tomorrow
