@@ -62,6 +62,6 @@ Slowly it starts to resemble a game :smiley:
     <video controls src="../../../../images/rouge_part_7_interface.mp4" title="Title"></video>
 </figure>
 
-## Part 8 - Items and Inventory
+## Final Part
 
-Tomorrow
+I continue this journey in [Part Three!](rogue_part_3.md)
