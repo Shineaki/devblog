@@ -11,6 +11,14 @@ categories:
 
 I continue my journey with the implementation of Py*Rouge*.
 
+Content:
+
+* Field of view
+* Placing Enemies and kicking them
+* Doing (and taking) some damage
+* Creating the Interface
+
+
 <!-- more -->
 
 ## Part 4 - Field of view

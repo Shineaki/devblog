@@ -11,6 +11,11 @@ categories:
 
 Yes, I misspelled the name, but it is too late to change the repository name and everything, so it will remain Py*Rouge*.
 
+Content:
+
+* Some rambling intro
+* Generating maps
+
 <!-- more -->
 
 ## Build your own X :wrench:
@@ -38,6 +43,10 @@ Creating a good single-player game is hard enough for a solo (or small team) ind
 Adding server-authoritative networking to the picture makes the whole thing 10x harder.
 
 Okay, let's continue with the Rogue stuff!
+
+## Part 1-2
+
+I forgot to take screenshots, but the first two parts are just basic project setup and creating the skeletons of the architecture.
 
 ## Part 3 - Generating maps
 
