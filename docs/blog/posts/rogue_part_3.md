@@ -39,4 +39,13 @@ I really recommend this [tutorial](https://rogueliketutorials.com/) for everyone
 
 # Part 9 - Ranged Scrolls and Targeting
 
-Tomorrow!
+Just finished adding ranged scrolls:
+
+* Confusion scroll (enemy AI changes to just wandering around for a few turns)
+* Lighting scroll (deals huge damage to the closest enemy)
+* Fireball scroll (deals AOE damage)
+
+I also started uploading videos to Youtube instead, because embedding all of them here would increase the repo size significantly.
+
+<iframe width="800" height="400" src="https://www.youtube.com/embed/zPSMPrQLOfc?si=KodIynhd0viCL5Mq" title="PyRouge - Part 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
