@@ -49,6 +49,13 @@ I also started uploading videos to Youtube instead, because embedding all of the
 
 <iframe width="800" height="400" src="https://www.youtube.com/embed/zPSMPrQLOfc?si=KodIynhd0viCL5Mq" title="PyRouge - Part 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+TODOS:
+
+* Lighting scroll range is not visible
+* Fireball range seems to be infinite and can be casted anywhere
+
+These will probably have to change later.
+
 # Part 10 - Saving and loading
 
 Tomorrow
