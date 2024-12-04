@@ -51,4 +51,12 @@ I also started uploading videos to Youtube instead, because embedding all of the
 
 ## Part 10 - Saving and loading
 
+We added a main menu, implemented saving (by pickling the engine) and loading. Now if I close the game it automatically saves the game state & I have the ability to load it back later _except_ if we died, because then it deletes existing save files & shuts down without saving - obviously :wink:
+
+<iframe width="800" height="400" src="https://www.youtube.com/embed/6qbQJduhiJI?si=gPJMq35eoncfp5Ch" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+I spent at least 2 hours debugging the code, because ~5 chapters ago I decided to implement something differently and it broke during this chapter, causing the game to not handle inputs ... Why do I always do this. **ALWAYS.REFACTOR.AT.THE.END.**
+
+## Part 11 - Delving into the Dungeon
+
 Tomorrow
