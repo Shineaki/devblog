@@ -37,7 +37,7 @@ I really recommend this [tutorial](https://rogueliketutorials.com/) for everyone
     <video controls src="../../../../images/part_8_inventory.mp4" title="Title"></video>
 </figure>
 
-# Part 9 - Ranged Scrolls and Targeting
+## Part 9 - Ranged Scrolls and Targeting
 
 Just finished adding ranged scrolls:
 
@@ -49,6 +49,6 @@ I also started uploading videos to Youtube instead, because embedding all of the
 
 <iframe width="800" height="400" src="https://www.youtube.com/embed/zPSMPrQLOfc?si=KodIynhd0viCL5Mq" title="PyRouge - Part 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Part 10 - Saving and loading
+## Part 10 - Saving and loading
 
 Tomorrow
