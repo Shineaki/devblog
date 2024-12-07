@@ -60,3 +60,12 @@ I spent at least 2 hours debugging the code, because ~5 chapters ago I decided t
 ## Part 11 - Delving into the Dungeon
 
 The first part of this chapter was about adding the starts, so we can actually delve deeper into the dungeon.
+In the second part we implemented a simple leveling mechanic, each mob gives some exp and if a threshold is reached, we level up and can select from one of the following "improvements":
+
+* +20 HP
+* +1 Strength (+1 damage)
+* +1 Agility (+1 defense)
+
+## Part 12 - Increasing Difficulty
+
+Tomorrow
