@@ -76,4 +76,27 @@ Obviously this is not sufficient yet for a real game, because if you level up tw
 
 ## Part 13 - Gearing up
 
-Tomorrow
+We added the possibility of picking up and equipping items! There are two types of items currently: weapons (dagger with +2 Attack and sword with +4 attack) and armors (leather with +1 defense and chain mail with +3 defense).
+
+Now our hero is officially broken, because as soon as you level once and upgrade your defense literally nobody can damage you. 
+
+## Next Steps
+
+Well, this was fun! During the tutorial I came up with the following vague plans for the future:
+
+* Collect & organize roguelike guides/tutorials/etc (from Roguebasin, roguelikedev subredit, etc)
+* Read up on roguelike combat balancing
+    * Stats, chances, how to make it fun
+* Read up on and implement dungeon generation algorithms
+    * This will probably be my first step
+* Move things to PyGame
+    * For some reason I would love to re-implement the same thing but using PyGame and some sprites and continue the development from there
+* Implement the same thing in Dart (with Flutter + Flame)
+    * For web / mobile / desktop
+    * Obviously this would be a large jump, because I probably cannot use tcodlib & numpy arrays for the map related things (path finding, los, etc)
+* Think about how to implement the same thing in multiplayer
+    * As I said before I really want to implement something in multiplayer, so this goal will always linger around
+    * The issue is that this turn based setup would (probably?) have to change in order to make it fun for multiplayer, but going from turn based to real-time feels like a huge jump right now
+
+
+... that's all for now, but I will keep going tomorrow! :wink:
