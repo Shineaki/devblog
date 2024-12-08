@@ -54,3 +54,13 @@ After filling it up with some props it is not such an eyesore anymore. Obviously
 <figure markdown="span">
     ![PyGame](../images/pygame/2024_12_08_tiled_filled.png)
 </figure>
+
+### Map Generation 
+
+I initialized the map procgen script (based on the PyRogue implementation), but I am way too tired to keep going, so I will call it a day. Also, doing this with sprites will be a lot harder, since the walls are not a single character, but will actually have to connect, based on rules about their neighbors ... so it will be fun. 
+
+<figure markdown="span">
+    ![PyGame](../images/pygame/2024_12_08_map_gen_1.png)
+</figure>
+
+I also plan to extract the whole map generation & visualization part to a separate script where I can test other algorithms & can record some fancy videos about how they work. 
