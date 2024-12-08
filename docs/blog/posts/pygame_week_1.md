@@ -57,10 +57,43 @@ After filling it up with some props it is not such an eyesore anymore. Obviously
 
 ### Map Generation 
 
-I initialized the map procgen script (based on the PyRogue implementation), but I am way too tired to keep going, so I will call it a day. Also, doing this with sprites will be a lot harder, since the walls are not a single character, but will actually have to connect, based on rules about their neighbors ... so it will be fun. 
+I initialized the map procgen script (based on the PyRogue implementation), but I am way too tired to keep going, so I will call it a day.
+
+Also, doing this with sprites will be a lot harder, since the walls are not a single character (like with tcodlib), 
+but will actually have to connect, based on rules about their neighbors ... so it will be fun. 
 
 <figure markdown="span">
     ![PyGame](../images/pygame/2024_12_08_map_gen_1.png)
 </figure>
 
 I also plan to extract the whole map generation & visualization part to a separate script where I can test other algorithms & can record some fancy videos about how they work. 
+
+#### Adding walls around rooms
+
+Okay, I couldn't stop working on this, so here are some updates. I created a tilemap where I only added the tiles that I need & aligned the walls correctly. This is how it looks right now (The bottom right corner is just some leftover from messing around)
+
+<figure markdown="span">
+    ![PyGame](../images/pygame/2024_12_08_procgen_tileset.png){ width="300" }
+</figure>
+
+Then I continued implementing the procgen script to generate rooms & walls around them. First I don't differentiate between left/right/top/bottom walls, I only have 3 type of tiles: void (gray area), wall & floor.
+
+<figure markdown="span">
+    ![PyGame](../images/pygame/2024_12_08_procgen_walls_1.png){ width="600" }
+</figure>
+
+After that I started differentiating corners from walls, I added 4 additional type of sprites: TL_C (Top-Left Corner), TR_C (Top-Right Corner), BL_C (Bottom-Left Corner), BR_C (Bottom-Right Corner). I haven't implemented the part where I actually render the correct images, so it looks like this:
+
+<figure markdown="span">
+    ![PyGame](../images/pygame/2024_12_08_procgen_walls_2.png){ width="600" }
+</figure>
+
+And after differentiating between top/bottom/left/right walls too & correctly implementing the sprite rendering, it starts to look okay:
+
+<figure markdown="span">
+    ![PyGame](../images/pygame/2024_12_08_procgen_walls_3.png){ width="600" }
+</figure>
+
+My current "naive" solution will not work for too long, because in the next step we will have to add hallways too, where I can't define the wall types so easily, instead I will have to check the neighboring wall types and decide on the correct sprite based on that. But I leave that for tomorrow.
+
+## Day 2
