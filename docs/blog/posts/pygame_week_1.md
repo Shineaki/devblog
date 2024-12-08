@@ -39,10 +39,18 @@ I created a simple baseclass for tiles, which seems to be working, but probably 
     ![PyGame](../images/pygame/2024_12_08_tiles.gif){ width="600" }
 </figure>
 
+#### Goal   
+
 I also created a dummy dungeon with [Tiled](https://www.mapeditor.org/), just to see how it would look like in the end.
 
 My current issue is that the walls seem to be shifted in the X direction, so they don't line up to the tile borders (I don't know if this is intended or not), so I will probably have to fix that in order to make my life easier later.
 
 <figure markdown="span">
     ![PyGame](../images/pygame/2024_12_08_tiled.png)
+</figure>
+
+After filling it up with some props it is not such an eyesore anymore. Obviously getting here just from code will be an adventure, but thankfully Christmas season is around the corner, so we might have some free-time to work on it.
+
+<figure markdown="span">
+    ![PyGame](../images/pygame/2024_12_08_tiled_filled.png)
 </figure>
