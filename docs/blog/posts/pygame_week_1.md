@@ -30,3 +30,19 @@ I just bought a book called [Game Programming Patterns](https://gameprogrammingp
 <figure markdown="span">
     ![PyGame](../images/pygame/2024_12_08_animated_movement.gif)
 </figure>
+
+### Tiles
+
+I created a simple baseclass for tiles, which seems to be working, but probably not that efficient, so I will have to read up on how to properly do this in PyGame.
+
+<figure markdown="span">
+    ![PyGame](../images/pygame/2024_12_08_tiles.gif)
+</figure>
+
+I also created a dummy dungeon with Tiled, just to see how it would look in the end.
+
+My current issue is that the walls seem to be shifted in the X direction, so they don't line up to the tile borders (I don't know if this is intended or not), so I will probably have to fix that in order to make my life easier later.
+
+<figure markdown="span">
+    ![PyGame](../images/pygame/2024_12_08_tiled.png)
+</figure>
