@@ -28,7 +28,7 @@ This will be though, lol. I actually had to implement my own animation logic (by
 I just bought a book called [Game Programming Patterns](https://gameprogrammingpatterns.com/) where the author dives into quite some low-level topics. When I initially looked at them, I was like ... what the heck, most of these things are handled by the engine without me having to know about them ... Now it might be the time to actually start reading the book :book:.
 
 <figure markdown="span">
-    ![PyGame](../images/pygame/2024_12_08_animated_movement.gif)
+    ![PyGame](../images/pygame/2024_12_08_animated_movement.gif){ width="600" }
 </figure>
 
 ### Tiles
@@ -36,10 +36,10 @@ I just bought a book called [Game Programming Patterns](https://gameprogrammingp
 I created a simple baseclass for tiles, which seems to be working, but probably not that efficient, so I will have to read up on how to properly do this in PyGame.
 
 <figure markdown="span">
-    ![PyGame](../images/pygame/2024_12_08_tiles.gif)
+    ![PyGame](../images/pygame/2024_12_08_tiles.gif){ width="600" }
 </figure>
 
-I also created a dummy dungeon with Tiled, just to see how it would look in the end.
+I also created a dummy dungeon with [Tiled](https://www.mapeditor.org/), just to see how it would look like in the end.
 
 My current issue is that the walls seem to be shifted in the X direction, so they don't line up to the tile borders (I don't know if this is intended or not), so I will probably have to fix that in order to make my life easier later.
 
