@@ -32,6 +32,8 @@ PyGame (flashbang warning): [https://www.pygame.org/docs/](https://www.pygame.or
 
 PyGame Read The Docs: [https://pygame.readthedocs.io/](https://pygame.readthedocs.io/)
 
+PyGame-ce: [https://pyga.me/docs/](https://pyga.me/docs/)
+
 Dungeon Tileset (that I plan to use for now): [https://0x72.itch.io/dungeontileset-ii](https://0x72.itch.io/dungeontileset-ii)
 
 An extension pack that I bought previously for this tileset: [https://0x72.itch.io/16x16-dungeontileset-ii-sewers](https://0x72.itch.io/16x16-dungeontileset-ii-sewers)

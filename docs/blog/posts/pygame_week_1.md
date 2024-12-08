@@ -1,0 +1,32 @@
+---
+date: 2024-12-15
+authors:
+  - Dev
+categories:
+  - Python
+  - GameDev
+---
+
+# Roguelike development with PyGame - Week 1
+
+Let's dive into PyGame
+
+<!-- more -->
+
+## Day 1
+
+### PyGame-ce :crown:
+
+Turns out PyGame is not really extended anymore, so we should use PyGame-ce (Community Edition). 
+
+It's not a big deal, because I barely started implementing something and ce is completely backwards compatible with pygame (with some additional features, larger community, etc)
+
+### Moving Around, Animations :video_game:
+
+This will be though, lol. I actually had to implement my own animation logic (by measuring time between updates, loading the next frames, etc). This is quite a unique experience after using Unity & Godot :laughing:
+
+I just bought a book called [Game Programming Patterns](https://gameprogrammingpatterns.com/) where the author dives into quite some low-level topics. When I initially looked at them, I was like ... what the heck, most of these things are handled by the engine without me having to know about them ... Now it might be the time to actually start reading the book :book:.
+
+<figure markdown="span">
+    ![PyGame](../images/pygame/2024_12_08_animated_movement.gif)
+</figure>

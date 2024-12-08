@@ -19,6 +19,9 @@ nav:
 extra:
   generator: false # Do not generate ad in footer 
 markdown_extensions: # Syntax Highlighting
+  - attr_list # Emojis
+  - md_in_html
+  - pymdownx.blocks.caption
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -26,7 +29,6 @@ markdown_extensions: # Syntax Highlighting
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-  - attr_list # Emojis
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
