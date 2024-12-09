@@ -97,3 +97,5 @@ And after differentiating between top/bottom/left/right walls too & correctly im
 My current "naive" solution will not work for too long, because in the next step we will have to add hallways too, where I can't define the wall types so easily, instead I will have to check the neighboring wall types and decide on the correct sprite based on that. But I leave that for tomorrow.
 
 ## Day 2
+
+I implemented a bunch of things to the map generation / correct sprite rendering topic, but it's already 11 PM, so I will document it later.
