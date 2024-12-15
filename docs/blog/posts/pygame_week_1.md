@@ -160,4 +160,6 @@ For example:
 * "Rule mapping": 000 10 000 (On my left side there must be a wall and on my right side there must be a floor)
 * These rules would match a lot of values, e.g.: 111 10 000, 000 10 111, etc.
 
-Great idea! Now I have to define a lot less 
+Great idea! Now I have to define a lot less rules, because by defining 1 interest mapping and 1 rule mapping I can cover a lot of usecases.
+
+The reality was that this got even more confusing, because after like 10-20 entries I had no clue when something was wrong if I messed up a rule or a tile set image was missing or what the issue was.
