@@ -154,6 +154,8 @@ This realization gave me the perfect solution: Instead of using one binary strin
 Both of them would be 8 long binary string, the "interest mapping" would define on which positions I want the binary values to match to the "rule mapping".
 
 For example:
+
+
 * "Interest mapping": 000 11 000 (I only care about what's on my left and right side)
 * "Rule mapping": 000 10 000 (On my left side there must be a wall and on my right side there must be a floor)
 * These rules would match a lot of values, e.g.: 111 10 000, 000 10 111, etc.
