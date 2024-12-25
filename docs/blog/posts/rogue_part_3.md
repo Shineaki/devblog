@@ -72,7 +72,7 @@ We implemented an improved item & monster spawning "strategy". On the first few 
 
 Obviously this is not sufficient yet for a real game, because if you level up twice and increase your defense then even the Trolls can't damage you, so some additional monsters / stat updates / more complex combat logic is required, but it is a good start.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BrtAxKXXgms?si=kMNLO55DPZ0hdTSO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="800" height="400" src="https://www.youtube.com/embed/BrtAxKXXgms?si=kMNLO55DPZ0hdTSO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Part 13 - Gearing up
 

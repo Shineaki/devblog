@@ -163,3 +163,28 @@ For example:
 Great idea! Now I have to define a lot less rules, because by defining 1 interest mapping and 1 rule mapping I can cover a lot of usecases.
 
 The reality was that this got even more confusing, because after like 10-20 entries I had no clue when something was wrong if I messed up a rule or a tile set image was missing or what the issue was.
+
+#### Third attempt - The Brute Force
+
+So, with the naive approach we have to cover 256 usecases (neighbor combinations), which is a lot, but I could do it in ~2 hours and it was quite relaxing.
+
+First I generated the possible neighbor combinations with python:
+
+<figure markdown="span">
+    ![PyGame](../images/pygame/2024_12_15_neighbor_rules.png){ width="600" }
+</figure>
+
+* White = center, the current "node" that we are evaluating.
+* Red = that neighboring cell contains a wall
+* Black = that neighboring cell is a floor
+
+And taking this image plus the tileset that we have and a 2 hour long lofi mix the result looks like this:
+
+<figure markdown="span">
+    ![PyGame](../images/pygame/2024_12_25_full_tileset.png){ width="600" }
+</figure>
+
+And after finishing that and adding the line of sight implementation, it looks like this:
+
+<iframe width="800" height="400" src="https://www.youtube.com/embed/-zNyIzPMg98?si=VFATHCePYAmInC4B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
