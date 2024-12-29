@@ -30,7 +30,7 @@ Obviously I jumped straight to the "Game" section, where I found a great site: [
 
 The tutorial uses Python and [tcod](https://github.com/libtcod/python-tcod) (a C library ported to Python that contains useful things for roguelike game development, like a customizable console, grid-based pathfinding, etc) to implement the basics of the original Rogue.
 
-![Rouge end-state](../images/rogue.png)
+![Rouge end-state](../images/pyrouge/rogue.png)
 
 ## Why :confused:
 
@@ -52,11 +52,11 @@ I forgot to take screenshots, but the first two parts are just basic project set
 
 Implementation of the map generation started, now we can create rooms (currently by hand, but this will change shortly).
 
-![Rouge Part 3 started](../images/rogue_part_3_1.png)
+![Rouge Part 3 started](../images/pyrouge/rogue_part_3_1.png)
 
 And the first (very simple) dungeon room generating function is implemented!
 
-![alt text](../images/rogue_part_3_2.png)
+![alt text](../images/pyrouge/rogue_part_3_2.png)
 
 To be honest I don't really like the generated layouts (too many paths, paths are overlapping, paths running along the side of the rooms), so I will try to come up with a different one after I finished the complete tutorial.
 

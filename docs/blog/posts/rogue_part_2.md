@@ -27,7 +27,7 @@ Implemented! I think it looks great and it improves a lot on the feel of the who
 Also, now I know that I can embed videos too, I had no idea mkdocs can do that. And I installed a spell checker to help with the typos.
 
 <figure class="video_container">
-    <video controls src="../../../../images/rouge_fov.mp4" title="Title"></video>
+    <video controls src="../../../../images/pyrouge/rouge_fov.mp4" title="Title"></video>
 </figure>
 
 ## Part 5 - Placing Enemies and kicking them
@@ -36,7 +36,7 @@ Enemies are now generated - 80% for an Orc (O) and 20% for a Troll (T). They do 
 I will try to add various monsters with different stats, based on the level we are on (like in the real Rogue).
 
 <figure class="video_container">
-    <video controls src="../../../../images/rouge_enemies_1.mp4" title="Title"></video>
+    <video controls src="../../../../images/pyrouge/rouge_enemies_1.mp4" title="Title"></video>
 </figure>
 
 ## Part 6 - Doing (and taking) some damage
@@ -49,7 +49,7 @@ Now the enemies chase the player and:
 * Attack the player (if distance = 1)
 
 <figure class="video_container">
-    <video controls src="../../../../images/rouge_part_6_enemies_chasing.mp4" title="Title"></video>
+    <video controls src="../../../../images/pyrouge/rouge_part_6_enemies_chasing.mp4" title="Title"></video>
 </figure>
 
 And after some combat implementation now we can kill enemies (and they can kill us). The consol log is not visible, but it shows the damage we deal (and receive). I assume later this will be visible on the screen as well.
@@ -57,7 +57,7 @@ And after some combat implementation now we can kill enemies (and they can kill 
 The combat is simple, the damage dealt equals attacker attack power minus the enemy defense, I guess this will also be improved later with a chance to miss / critical hit, deal damage on a range instead of a fixed value, etc.
 
 <figure class="video_container">
-    <video controls src="../../../../images/rouge_part6_fight_enemies.mp4" title="Title"></video>
+    <video controls src="../../../../images/pyrouge/rouge_part6_fight_enemies.mp4" title="Title"></video>
 </figure>
 
 
@@ -67,7 +67,7 @@ Today we added a lots of stuff on the UI: a health bar, an expandable chat log a
 Slowly it starts to resemble a game :smiley:
 
 <figure class="video_container">
-    <video controls src="../../../../images/rouge_part_7_interface.mp4" title="Title"></video>
+    <video controls src="../../../../images/pyrouge/rouge_part_7_interface.mp4" title="Title"></video>
 </figure>
 
 ## Final Part

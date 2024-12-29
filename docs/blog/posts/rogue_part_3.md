@@ -28,13 +28,13 @@ Another great chapter! We created some classes to support items & a basic invent
 
 I also changed the colors a bit to make things more visible.
 
-![Potions](../images/part_8_potions.png)
+![Potions](../images/pyrouge/part_8_potions.png)
 
 
 I really recommend this [tutorial](https://rogueliketutorials.com/) for everyone, because it is awesome and I feel like I learn a lot just by following (and basically copy-pasting code from the browser to the IDE) through.
 
 <figure class="video_container">
-    <video controls src="../../../../images/part_8_inventory.mp4" title="Title"></video>
+    <video controls src="../../../../images/pyrouge/part_8_inventory.mp4" title="Title"></video>
 </figure>
 
 ## Part 9 - Ranged Scrolls and Targeting
