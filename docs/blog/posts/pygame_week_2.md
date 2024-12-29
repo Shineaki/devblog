@@ -13,3 +13,10 @@ categories:
 
 <iframe width="800" height="400" src="https://www.youtube.com/embed/toN_dXkrjzE?si=ZLbpL09j48VnTvhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<!-- more -->
+
+
+## Day 2 - Enemy spawning
+
+<iframe width="800" height="400" src="https://www.youtube.com/embed/3gQ3pWrRFd8?si=4XAkfyTReRrJJG1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
