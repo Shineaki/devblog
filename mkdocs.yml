@@ -13,7 +13,7 @@ plugins:
   - blog:
       archive: false
 nav:
-  - Home: index.md
+  - Home: restart.md
   - Blog: 
     - blog/index.md
 extra:
